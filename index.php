@@ -103,12 +103,12 @@ $(document).ready(function(){
    $ajax({
      type : 'POST',
      url  : 'index.php',
-     data : 'act=nama'+nama+'&alamat='+alamat+'&sekolah='+sekolah',
+     data : 'act=nama'+nama+'&alamat='+alamat+'&sekolah='+sekolah,
      success : function(hasil){
        alert('berhasil');
 };
 });
-});
+}); 
 
 });
 </script>
